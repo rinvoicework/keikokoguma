@@ -1,0 +1,431 @@
+@charset "UTF-8";
+html {
+  font-size: 100%;
+}
+body {
+  font-family: "Yu Gothic", "Hiragino Sans", sans-serif;
+  line-height: 1.7;
+  color: #3a0825;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+.wrapper {
+  max-width: 1120px;
+  margin: auto;
+  padding: 0 1.5rem;
+}
+.align-center {
+  text-align: center;
+}
+.alex-brush-regular {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.font-english {
+  font-family: "Alex Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.about {
+  max-width: 736px;
+  padding: 0 1rem;
+  margin: 3rem auto 5rem;
+}
+.about p {
+  margin-bottom: 0.5rem;
+  line-height: 1.9;
+  letter-spacing: 0;
+}
+
+.cover-profile {
+  background-image: url(../images/cover-profile-sn3.png);
+}
+.profile-main-heading {
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  color: #75462b;
+}
+
+.profile-heading {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+.profile-list {
+  padding-left: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.profile-list li {
+  margin-bottom: 0.8rem;
+  line-height: 1.8;
+}
+
+.page-title,
+.page-subtitle,
+.heading-large,
+.heading-medium {
+  font-size: 3rem;
+  text-align: center;
+}
+.page-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  line-height: 1.4;
+}
+.page-subtitle {
+  margin-top: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1.4;
+}
+.page-header {
+  padding-top: 0.5rem;
+}
+.heading-large {
+  margin-bottom: 1rem;
+}
+.btn {
+  display: inline-block;
+  font-size: 1rem;
+  background-color: #75462b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  transition: 0.5s;
+  margin-top: 2rem;
+  width: min(300px, 100%);
+}
+.btn:hover {
+  scale: 1.2;
+  rotate: -5deg;
+  background-color: #b9826a;
+}
+
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem 1.2rem;
+  font-size: 1.2rem;
+  list-style: none;
+}
+.main-nav a {
+  color: #3a0825;
+}
+.main-nav a:hover {
+  color: #b9826a;
+}
+.cover {
+  background-size: cover;
+  background-position: center bottom;
+  height: 800px;
+}
+.sub-cover {
+  background-size: cover;
+  background-position: center bottom;
+  height: 528px;
+  margin-bottom: 3rem;
+}
+.cover-home {
+  background-image: url(../images/cover-home-s-new.png);
+}
+.copyright {
+  background-color: #3a0825;
+  text-align: center;
+  padding: 2rem 0;
+  margin-top: 6rem;
+  color: #fff;
+}
+
+.cover-gallery {
+  background-image: url(../images/cover-gallery-sn.png);
+}
+.cover-gallery .page-title {
+  color: #3a0825;
+  background-color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  padding: 0.2rem 1.5rem;
+  border-radius: 20px;
+}
+.cover-gallery {
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 2rem 1.5rem;
+  grid-template-columns: repeat(2, 1fr);
+  text-align: center;
+}
+.item img {
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.item p {
+  font-size: 0.875rem;
+}
+.order {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.order p {
+  margin-bottom: 1rem;
+  line-height: 1.4;
+}
+.post p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+.course-card p {
+  margin-bottom: 0.3rem;
+}
+.work {
+  margin-bottom: 3rem;
+}
+.cover-workshop {
+  background-image: url(../images/cover-workshop-sn.png);
+}
+.cover-order {
+  background-image: url(../images/cover-order-sn.png);
+}
+#contact p {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#contact dl {
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contact dt {
+  width: 100%;
+  margin-bottom: 0.3rem;
+}
+
+#contact dd {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+#contact dd input,
+#contact dd textarea {
+  width: 100%;
+  border: solid 1px #c8c8c8;
+  padding: 10px;
+}
+
+#contact dd textarea {
+  height: 10rem;
+}
+
+#contact .button {
+  text-align: center;
+}
+
+#contact .button input {
+  border: solid 1px #c9a45c;
+  width: 200px;
+  background-color: #c9a45c;
+  color: #fff;
+  padding: 15px 0;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+#contact .button input:hover {
+  background: #9b6a4b;
+  color: #fff;
+}
+
+.sec-title {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.work > p {
+  margin-bottom: 1rem;
+}
+.workshop-form {
+  margin-top: 5rem;
+}
+
+.course-card {
+  flex: 1;
+  background: #faf7f2;
+  border: 1px solid #e5d9ce;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+}
+.course-check {
+  text-align: center;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.course-check label {
+  display: block;
+  margin-left: 0;
+}
+.course-check label:first-of-type {
+  margin-top: 0.8rem;
+}
+.course-card strong {
+  display: block;
+  margin-bottom: 1rem;
+}
+.course-card p {
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+.course-list {
+  list-style: none;
+  padding: 0;
+  margin: 3rem 0 5rem;
+}
+
+.course-card {
+  background: #faf7f2;
+  border: 1px solid #e5d9ce;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.course-list li {
+  margin-bottom: 1rem;
+}
+.cover-order {
+  text-align: center;
+}
+
+.cover-order .page-title {
+  background-color: rgba(255, 255, 255, 0.4);
+  display: inline-block;
+  padding: 0.2rem 1.5rem;
+  border-radius: 20px;
+  margin-top: 0.5rem;
+}
+.cover-contact {
+  background-image: url(../images/cover-contct-s2.png);
+}
+
+@media (min-width: 800px) {
+  h2 {
+    font-size: 5rem;
+  }
+
+  .page-title,
+  .page-subtitle {
+    font-size: 5rem;
+  }
+  .heading-large {
+    font-size: 4rem;
+  }
+  .page-header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5rem;
+  }
+  .main-nav {
+    font-size: 2rem;
+  }
+  .cover-home {
+    background-image: url(../images/cover-home-ln2.png);
+  }
+  .about {
+    margin: 4rem auto 0;
+  }
+  .about p {
+    text-align: left;
+  }
+  .cover-profile {
+    background-image: url(../images/cover-profile-lnn.png);
+  }
+
+  .profile-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+    text-align: center;
+  }
+  .profile-list li {
+    margin-bottom: 0.5rem;
+  }
+  .cover-gallery {
+    background-image: url(../images/cover-gallery-l.png);
+  }
+  .cover-workshop {
+    background-image: url(../images/cover-workshop-l.png);
+  }
+  .cover-order {
+    background-image: url(../images/cover-order-ln.png);
+  }
+
+  .cover-order .page-title,
+  .cover-order .main-nav a {
+    color: #fdf8f0;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.7);
+  }
+
+  .item img {
+    margin-bottom: 0.5rem;
+  }
+  .item p {
+    font-size: 1rem;
+  }
+  .sec-title {
+    margin-bottom: 40px;
+  }
+
+  .course-list {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  .course-card {
+    flex: 1;
+    margin-bottom: 0;
+  }
+  .cover-contact {
+    background-image: url(../images/cover-contact-l.png);
+  }
+  .cover-contact {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: #f7efe3;
+  }
+  #contact dl {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+
+  #contact dt {
+    width: 15%;
+  }
+
+  #contact dd {
+    width: 85%;
+    margin-bottom: 10px;
+  }
+  #contact {
+    max-width: 800px;
+    margin: 4rem auto 0;
+  }
+  .workshop-form {
+    margin-top: 6rem;
+  }
+}
